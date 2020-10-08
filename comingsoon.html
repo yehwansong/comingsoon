@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta 
+     name='viewport' 
+     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' 
+/>
+<script
+src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+<script
+src="jquery.waitforimages.js"></script>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&display=swap');
+@font-face {
+  font-family: Times;
+  src: url(font/TimesNewerRoman-Regular.woff);
+}
+	*{margin:0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Archivo', sans-serif;}
+	body{
+		width: 100vw;
+		height: 100vh;
+		background-size: contain;
+		background-repeat: no-repeat;
+    /*filter: invert(1);*/
+    background:black;
+	}
+	img{
+		position: fixed;
+		top: 0;
+		left: 30vw;
+		width: 40vw;
+		height: auto;
+		top: 50%;
+		transform: translateY(-50%);
+		display: none;
+	}
+@media (max-aspect-ratio: 1/1) {
+	img{
+
+		left: 0vw;
+		width: 100vw;
+	}
+}
+</style>
+</head>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.img').waitForImages().done(function() {
+			showframe()
+		});
+		var counter = 0
+		function showframe(){
+			counter ++ 
+			$('img').hide()
+			$('.img_'+((counter-1)%67 + 1)).show()
+			$('.img_'+(counter%67 + 1)).show()
+			setTimeout(function(){
+				showframe()
+			},40)
+		}
+	})
+</script>
+<body>
+		<img class="img_1" src="comingsoon/img1.png">
+		<img class="img_2" src="comingsoon/img2.png">
+		<img class="img_3" src="comingsoon/img3.png">
+		<img class="img_4" src="comingsoon/img4.png">
+		<img class="img_5" src="comingsoon/img5.png">
+		<img class="img_6" src="comingsoon/img6.png">
+		<img class="img_7" src="comingsoon/img7.png">
+		<img class="img_8" src="comingsoon/img8.png">
+		<img class="img_9" src="comingsoon/img9.png">
+		<img class="img_10" src="comingsoon/img10.png">
+		<img class="img_11" src="comingsoon/img11.png">
+		<img class="img_12" src="comingsoon/img12.png">
+		<img class="img_13" src="comingsoon/img13.png">
+		<img class="img_14" src="comingsoon/img14.png">
+		<img class="img_15" src="comingsoon/img15.png">
+		<img class="img_16" src="comingsoon/img16.png">
+		<img class="img_17" src="comingsoon/img17.png">
+		<img class="img_18" src="comingsoon/img18.png">
+		<img class="img_19" src="comingsoon/img19.png">
+		<img class="img_20" src="comingsoon/img20.png">
+		<img class="img_21" src="comingsoon/img21.png">
+		<img class="img_22" src="comingsoon/img22.png">
+		<img class="img_23" src="comingsoon/img23.png">
+		<img class="img_24" src="comingsoon/img24.png">
+		<img class="img_25" src="comingsoon/img25.png">
+		<img class="img_26" src="comingsoon/img26.png">
+		<img class="img_27" src="comingsoon/img27.png">
+		<img class="img_28" src="comingsoon/img28.png">
+		<img class="img_29" src="comingsoon/img29.png">
+		<img class="img_30" src="comingsoon/img30.png">
+		<img class="img_31" src="comingsoon/img31.png">
+		<img class="img_32" src="comingsoon/img32.png">
+		<img class="img_33" src="comingsoon/img33.png">
+		<img class="img_34" src="comingsoon/img34.png">
+		<img class="img_35" src="comingsoon/img35.png">
+		<img class="img_36" src="comingsoon/img36.png">
+		<img class="img_37" src="comingsoon/img37.png">
+		<img class="img_38" src="comingsoon/img38.png">
+		<img class="img_39" src="comingsoon/img39.png">
+		<img class="img_40" src="comingsoon/img40.png">
+		<img class="img_41" src="comingsoon/img41.png">
+		<img class="img_42" src="comingsoon/img42.png">
+		<img class="img_43" src="comingsoon/img43.png">
+		<img class="img_44" src="comingsoon/img44.png">
+		<img class="img_45" src="comingsoon/img45.png">
+		<img class="img_46" src="comingsoon/img46.png">
+		<img class="img_47" src="comingsoon/img47.png">
+		<img class="img_48" src="comingsoon/img48.png">
+		<img class="img_49" src="comingsoon/img49.png">
+		<img class="img_50" src="comingsoon/img50.png">
+		<img class="img_51" src="comingsoon/img51.png">
+		<img class="img_52" src="comingsoon/img52.png">
+		<img class="img_53" src="comingsoon/img53.png">
+		<img class="img_54" src="comingsoon/img54.png">
+		<img class="img_55" src="comingsoon/img55.png">
+		<img class="img_56" src="comingsoon/img56.png">
+		<img class="img_57" src="comingsoon/img57.png">
+		<img class="img_58" src="comingsoon/img58.png">
+		<img class="img_59" src="comingsoon/img59.png">
+		<img class="img_60" src="comingsoon/img60.png">
+		<img class="img_61" src="comingsoon/img61.png">
+		<img class="img_62" src="comingsoon/img62.png">
+		<img class="img_63" src="comingsoon/img63.png">
+		<img class="img_64" src="comingsoon/img64.png">
+		<img class="img_65" src="comingsoon/img65.png">
+		<img class="img_66" src="comingsoon/img66.png">
+		<img class="img_67" src="comingsoon/img67.png">
+</body>
+</html>
